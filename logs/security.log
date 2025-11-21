@@ -1,0 +1,279 @@
+[253] 2025-11-20 10:16:38,639 -- (WARNING)- django.request- Not Found: /
+[213] 2025-11-20 10:16:38,640 -- (WARNING)- django.server- "GET / HTTP/1.1" 404 3166
+[253] 2025-11-20 10:16:38,955 -- (WARNING)- django.request- Not Found: /favicon.ico
+[213] 2025-11-20 10:16:38,956 -- (WARNING)- django.server- "GET /favicon.ico HTTP/1.1" 404 3217
+[253] 2025-11-20 10:29:48,419 -- (WARNING)- django.request- Method Not Allowed: /api/token/
+[213] 2025-11-20 10:29:48,421 -- (WARNING)- django.server- "GET /api/token/ HTTP/1.1" 405 7622
+[253] 2025-11-20 10:30:35,662 -- (WARNING)- django.request- Unauthorized: /api/token/
+[213] 2025-11-20 10:30:35,662 -- (WARNING)- django.server- "POST /api/token/ HTTP/1.1" 401 7567
+[253] 2025-11-20 10:31:04,787 -- (WARNING)- django.request- Unauthorized: /api/token/
+[213] 2025-11-20 10:31:04,787 -- (WARNING)- django.server- "POST /api/token/ HTTP/1.1" 401 7567
+[253] 2025-11-20 10:32:12,426 -- (WARNING)- django.request- Bad Request: /api/token/
+[213] 2025-11-20 10:32:12,427 -- (WARNING)- django.server- "POST /api/token/ HTTP/1.1" 400 46
+[667] 2025-11-20 10:36:00,462 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[45] 2025-11-20 10:36:05,769 -- (INFO)- security_logger- Login successful for account number: C780652
+[213] 2025-11-20 10:36:05,770 -- (INFO)- django.server- "POST /api/users/login/ HTTP/1.1" 200 30
+[667] 2025-11-21 02:46:31,425 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 02:48:18,188 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\diuwallet\settings.py changed, reloading.
+[667] 2025-11-21 02:48:23,523 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[667] 2025-11-21 02:50:17,032 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 02:50:39,442 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\customer\schedulers.py changed, reloading.
+[667] 2025-11-21 02:50:40,648 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 02:50:42,017 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\customer\schedulers.py changed, reloading.
+[667] 2025-11-21 02:50:43,328 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 02:50:44,649 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\customer\schedulers.py changed, reloading.
+[667] 2025-11-21 02:50:45,881 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 02:50:48,484 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\customer\schedulers.py changed, reloading.
+[667] 2025-11-21 02:50:49,497 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[667] 2025-11-21 03:12:25,469 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:12:40,565 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:12:42,181 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:12:43,914 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:12:45,420 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:12:47,117 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:12:48,191 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:12:57,001 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:12:58,273 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:13:05,155 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:13:06,306 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:14:31,227 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:14:32,651 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:14:36,499 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:14:37,602 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:14:39,452 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:14:40,454 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:15:24,497 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:15:26,472 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:15:28,340 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:15:29,442 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:15:49,734 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:15:50,980 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:15:54,524 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:15:55,595 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:15:57,946 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:15:58,969 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:16:01,331 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:16:02,370 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[25] 2025-11-21 03:17:26,942 -- (INFO)- security_logger- Account creation failed - Invalid email format: sd@gmail.com
+[253] 2025-11-21 03:17:26,970 -- (WARNING)- django.request- Bad Request: /api/users/registration/
+[213] 2025-11-21 03:17:26,971 -- (WARNING)- django.server- "POST /api/users/registration/ HTTP/1.1" 400 71
+[34] 2025-11-21 03:18:41,157 -- (INFO)- security_logger- Account created successfully for account number: C437265
+[213] 2025-11-21 03:18:41,158 -- (INFO)- django.server- "POST /api/users/registration/ HTTP/1.1" 201 70
+[265] 2025-11-21 03:19:19,124 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:19:26,962 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:19:42,721 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:19:44,645 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:19:46,635 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:19:47,885 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:19:50,408 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:19:52,413 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:19:57,437 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:19:59,908 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:20:01,928 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:20:03,234 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:22:29,670 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:22:36,367 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:22:45,860 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:22:47,520 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:22:55,627 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:22:56,975 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:23:06,612 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:23:08,108 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:23:09,963 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:23:11,993 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:23:14,688 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:23:16,111 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:23:25,946 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:23:27,177 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:23:30,852 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:23:32,637 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:23:34,646 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:23:36,478 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:23:41,363 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:23:42,823 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:23:59,901 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:24:01,090 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:24:45,561 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:24:47,984 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:24:53,454 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:24:55,164 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:24:56,484 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:24:59,059 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:25:00,464 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:25:01,378 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:25:04,206 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:25:05,630 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:25:18,677 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:25:19,890 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:25:21,557 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:25:22,824 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:25:29,186 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:25:32,652 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:25:49,077 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:25:52,223 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:25:58,410 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:26:01,816 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:26:04,288 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:26:06,850 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:26:16,950 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:26:18,333 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:26:23,449 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:26:25,089 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:26:26,774 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:26:28,864 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:26:31,022 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:26:32,565 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[253] 2025-11-21 03:27:40,875 -- (ERROR)- django.request- Internal Server Error: /api/users/registration/
+Traceback (most recent call last):
+  File "G:\djangoRESTapi\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "G:\djangoRESTapi\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\djangoRESTapi\env\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\djangoRESTapi\env\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\djangoRESTapi\env\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\djangoRESTapi\env\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "G:\djangoRESTapi\env\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "G:\djangoRESTapi\env\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\djangoRESTapi\env\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "G:\E_Transaction\diuwallet\users\views.py", line 30, in user_registration_view
+    re.sub(mobile_pattern,new_pattern,mobile_number)
+                                      ^^^^^^^^^
+NameError: name 'mobile_nu' is not defined. Did you mean: 'mobile_number'?
+[213] 2025-11-21 03:27:40,894 -- (ERROR)- django.server- "POST /api/users/registration/ HTTP/1.1" 500 111263
+[265] 2025-11-21 03:28:35,907 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:28:39,771 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[38] 2025-11-21 03:28:50,290 -- (INFO)- security_logger- Account created successfully for account number: C124555
+[213] 2025-11-21 03:28:50,291 -- (INFO)- django.server- "POST /api/users/registration/ HTTP/1.1" 201 70
+[265] 2025-11-21 03:29:28,156 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:29:29,401 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:29:31,975 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:29:33,242 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[38] 2025-11-21 03:29:52,549 -- (INFO)- security_logger- Account created successfully for account number: C424453
+[213] 2025-11-21 03:29:52,550 -- (INFO)- django.server- "POST /api/users/registration/ HTTP/1.1" 201 70
+[38] 2025-11-21 03:29:59,107 -- (INFO)- security_logger- Account created successfully for account number: C306932
+[213] 2025-11-21 03:29:59,108 -- (INFO)- django.server- "POST /api/users/registration/ HTTP/1.1" 201 70
+[38] 2025-11-21 03:30:08,090 -- (INFO)- security_logger- Account created successfully for account number: C342807
+[213] 2025-11-21 03:30:08,090 -- (INFO)- django.server- "POST /api/users/registration/ HTTP/1.1" 201 70
+[265] 2025-11-21 03:30:39,445 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\models.py changed, reloading.
+[667] 2025-11-21 03:30:41,185 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:30:43,748 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\models.py changed, reloading.
+[667] 2025-11-21 03:30:45,032 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[45] 2025-11-21 03:30:51,355 -- (INFO)- security_logger- Account creation failed with errors: {'email': [ErrorDetail(string='user with this email already exists.', code='unique')]}
+[253] 2025-11-21 03:30:51,358 -- (WARNING)- django.request- Bad Request: /api/users/registration/
+[213] 2025-11-21 03:30:51,358 -- (WARNING)- django.server- "POST /api/users/registration/ HTTP/1.1" 400 50
+[265] 2025-11-21 03:36:20,482 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:36:25,418 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:36:31,065 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:36:32,265 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:36:40,165 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:36:41,310 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:36:47,095 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:36:48,735 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:36:54,459 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:36:56,116 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:37:04,831 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:37:06,294 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:37:33,783 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:37:35,320 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:37:41,175 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:37:42,423 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:37:44,098 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:37:45,406 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:37:54,148 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:37:55,147 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:37:57,632 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:37:58,935 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:38:14,344 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:38:15,687 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:38:17,529 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:38:20,321 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:38:22,466 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:38:23,874 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:38:25,872 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:38:26,923 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[32] 2025-11-21 03:39:01,633 -- (INFO)- security_logger- Account creation failed - Invalid mobile number format: 
+[253] 2025-11-21 03:39:01,636 -- (WARNING)- django.request- Bad Request: /api/users/registration/
+[213] 2025-11-21 03:39:01,637 -- (WARNING)- django.server- "POST /api/users/registration/ HTTP/1.1" 400 97
+[32] 2025-11-21 03:39:08,528 -- (INFO)- security_logger- Account creation failed - Invalid mobile number format: 
+[253] 2025-11-21 03:39:08,529 -- (WARNING)- django.request- Bad Request: /api/users/registration/
+[213] 2025-11-21 03:39:08,530 -- (WARNING)- django.server- "POST /api/users/registration/ HTTP/1.1" 400 97
+[32] 2025-11-21 03:39:16,304 -- (INFO)- security_logger- Account creation failed - Invalid mobile number format: 
+[253] 2025-11-21 03:39:16,304 -- (WARNING)- django.request- Bad Request: /api/users/registration/
+[213] 2025-11-21 03:39:16,305 -- (WARNING)- django.server- "POST /api/users/registration/ HTTP/1.1" 400 97
+[265] 2025-11-21 03:39:37,703 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:39:41,363 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[32] 2025-11-21 03:39:48,623 -- (INFO)- security_logger- Account creation failed - Invalid mobile number format: 
+[253] 2025-11-21 03:39:48,625 -- (WARNING)- django.request- Bad Request: /api/users/registration/
+[213] 2025-11-21 03:39:48,626 -- (WARNING)- django.server- "POST /api/users/registration/ HTTP/1.1" 400 101
+[265] 2025-11-21 03:40:01,117 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:40:02,904 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:40:10,888 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:40:12,569 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:40:18,406 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:40:19,961 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[32] 2025-11-21 03:40:29,423 -- (INFO)- security_logger- Account creation failed - Invalid mobile number format: 
+[253] 2025-11-21 03:40:29,428 -- (WARNING)- django.request- Bad Request: /api/users/registration/
+[213] 2025-11-21 03:40:29,430 -- (WARNING)- django.server- "POST /api/users/registration/ HTTP/1.1" 400 101
+[265] 2025-11-21 03:42:07,689 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:42:10,121 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[32] 2025-11-21 03:42:12,303 -- (INFO)- security_logger- Account creation failed - Invalid mobile number format: 
+[253] 2025-11-21 03:42:12,307 -- (WARNING)- django.request- Bad Request: /api/users/registration/
+[213] 2025-11-21 03:42:12,308 -- (WARNING)- django.server- "POST /api/users/registration/ HTTP/1.1" 400 101
+[32] 2025-11-21 03:44:40,061 -- (INFO)- security_logger- Account creation failed - Invalid mobile number format: 
+[253] 2025-11-21 03:44:40,062 -- (WARNING)- django.request- Bad Request: /api/users/registration/
+[213] 2025-11-21 03:44:40,062 -- (WARNING)- django.server- "POST /api/users/registration/ HTTP/1.1" 400 101
+[265] 2025-11-21 03:45:31,781 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:45:37,558 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[32] 2025-11-21 03:45:56,284 -- (INFO)- security_logger- Account creation failed - Invalid mobile number format: 
+[253] 2025-11-21 03:45:56,288 -- (WARNING)- django.request- Bad Request: /api/users/registration/
+[213] 2025-11-21 03:45:56,289 -- (WARNING)- django.server- "POST /api/users/registration/ HTTP/1.1" 400 101
+[265] 2025-11-21 03:47:04,571 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:47:09,620 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[32] 2025-11-21 03:47:13,963 -- (INFO)- security_logger- Account creation failed - Invalid mobile number format: 
+[253] 2025-11-21 03:47:13,965 -- (WARNING)- django.request- Bad Request: /api/users/registration/
+[213] 2025-11-21 03:47:13,966 -- (WARNING)- django.server- "POST /api/users/registration/ HTTP/1.1" 400 101
+[41] 2025-11-21 03:47:57,527 -- (INFO)- security_logger- Account created successfully for account number: C586397
+[213] 2025-11-21 03:47:57,528 -- (INFO)- django.server- "POST /api/users/registration/ HTTP/1.1" 201 70
+[265] 2025-11-21 03:48:15,230 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:48:16,819 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:48:36,008 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:48:37,984 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:48:39,850 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:48:40,978 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[32] 2025-11-21 03:48:59,377 -- (INFO)- security_logger- Account creation failed - Invalid mobile number format: 
+[253] 2025-11-21 03:48:59,380 -- (WARNING)- django.request- Bad Request: /api/users/registration/
+[213] 2025-11-21 03:48:59,381 -- (WARNING)- django.server- "POST /api/users/registration/ HTTP/1.1" 400 101
+[32] 2025-11-21 03:49:12,246 -- (INFO)- security_logger- Account creation failed - Invalid mobile number format: 
+[253] 2025-11-21 03:49:12,247 -- (WARNING)- django.request- Bad Request: /api/users/registration/
+[213] 2025-11-21 03:49:12,248 -- (WARNING)- django.server- "POST /api/users/registration/ HTTP/1.1" 400 101
+[265] 2025-11-21 03:49:21,660 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:49:23,384 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[32] 2025-11-21 03:49:28,260 -- (INFO)- security_logger- Account creation failed - Invalid mobile number format: 
+[253] 2025-11-21 03:49:28,263 -- (WARNING)- django.request- Bad Request: /api/users/registration/
+[213] 2025-11-21 03:49:28,264 -- (WARNING)- django.server- "POST /api/users/registration/ HTTP/1.1" 400 101
+[41] 2025-11-21 03:49:38,515 -- (INFO)- security_logger- Account created successfully for account number: C615699
+[213] 2025-11-21 03:49:38,516 -- (INFO)- django.server- "POST /api/users/registration/ HTTP/1.1" 201 70
+[265] 2025-11-21 03:50:22,570 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:50:24,644 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[265] 2025-11-21 03:50:26,758 -- (INFO)- django.utils.autoreload- G:\E_Transaction\diuwallet\users\views.py changed, reloading.
+[667] 2025-11-21 03:50:28,036 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[41] 2025-11-21 03:50:41,149 -- (INFO)- security_logger- Account created successfully for account number: C290870
+[213] 2025-11-21 03:50:41,150 -- (INFO)- django.server- "POST /api/users/registration/ HTTP/1.1" 201 70
+[667] 2025-11-21 03:55:54,303 -- (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+[41] 2025-11-21 03:56:12,735 -- (INFO)- security_logger- Account created successfully for account number: C316336
+[213] 2025-11-21 03:56:12,737 -- (INFO)- django.server- "POST /api/users/registration/ HTTP/1.1" 201 70
