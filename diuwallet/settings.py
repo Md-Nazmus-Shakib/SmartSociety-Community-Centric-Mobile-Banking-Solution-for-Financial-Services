@@ -112,8 +112,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'diuwallet_db',
-        'USER': 'postgres',
-        'PASSWORD': 'NotunPassword123',
+        'USER': '',
+        'PASSWORD': '',
         'HOST': 'localhost',
         'PORT': '5432',
     }
