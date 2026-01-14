@@ -5,9 +5,10 @@ class WalletSerializer(serializers.ModelSerializer):
     username = serializers.CharField(source='user.username', read_only=True)
     account_number = serializers.CharField(source='user.account_number', read_only=True)
     role = serializers.CharField(source='user.role', read_only=True)
+    email = serializers.EmailField(source='user.email', read_only=True)
     class Meta:
         model = models.Wallet
-        fields = ['username','account_number','role', 'balance', 'created_at', 'updated_at']
+        fields = ['username','account_number','role','email', 'balance', 'created_at', 'updated_at']
         read_only_fields = ['created_at', 'updated_at','balance']
         
         

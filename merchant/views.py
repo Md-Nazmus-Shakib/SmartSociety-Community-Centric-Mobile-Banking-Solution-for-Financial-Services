@@ -20,8 +20,11 @@ from rest_framework.permissions import IsAuthenticated
 @permission_classes([IsAuthenticated])
 def merchant_profile_view(request):
     if request.method == 'GET':
-        serializer = serializers.MerchantSerializer(request.user.merchant)
-        return Response(serializer.data, status=status.HTTP_200_OK)
+        try:
+            serializer = serializers.MerchantSerializer(request.user.merchant)
+            return Response(serializer.data, status=status.HTTP_200_OK)
+        except AttributeError:
+            return Response({'detail': 'Merchant or wallet not found'}, status=status.HTTP_404_NOT_FOUND)
     
     
 @api_view(['POST'])

@@ -4184,3 +4184,119 @@ revenue.models.Revenue.DoesNotExist: Revenue matching query does not exist.
 [147] 2025-12-13 00:18:49,598 -- (ERROR)- transactions_logger- [<function lineno at 0x0000024A45317C40>]FAILED Transaction — Insufficient Balance
 [147] 2025-12-13 00:20:08,351 -- (ERROR)- transactions_logger- [<function lineno at 0x0000024A45317C40>]FAILED Transaction — Insufficient Balance
 [175] 2025-12-13 00:20:08,363 -- (ERROR)- transactions_logger- [<function lineno at 0x0000024A45317C40>]FAILED Transaction — Insufficient Balance
+[30] 2025-12-13 03:07:27,568 -- (ERROR)- transactions_logger- [<function lineno at 0x00000214EE483920>]FAILED Transaction — Insufficient Balance
+[30] 2025-12-13 04:55:25,072 -- (ERROR)- transactions_logger- [<function lineno at 0x000002F82A303920>]FAILED Transaction — Insufficient Balance
+[30] 2025-12-13 04:56:12,761 -- (ERROR)- transactions_logger- [<function lineno at 0x000002F82A303920>]FAILED Transaction — Insufficient Balance
+[17] 2025-12-13 04:56:52,719 -- (ERROR)- transactions_logger- [<function lineno at 0x000002F82A303920>]FAILED Transaction — Sender and Receiver cannot be the same.
+[138] 2025-12-13 04:58:03,503 -- (ERROR)- transactions_logger- [<function lineno at 0x000002F82A303920>]FAILED Transaction — Reciver is not a valid agent.
+[147] 2025-12-13 04:58:38,252 -- (ERROR)- transactions_logger- [<function lineno at 0x000002F82A303920>]FAILED Transaction — Insufficient Balance
+[147] 2025-12-13 04:59:20,301 -- (ERROR)- transactions_logger- [<function lineno at 0x000002F82A303920>]FAILED Transaction — Insufficient Balance
+[218] 2025-12-13 05:00:51,754 -- (ERROR)- transactions_logger- [<function lineno at 0x000002F82A303920>]FAILED Transaction — Insufficient Balance
+[210] 2025-12-13 05:01:16,178 -- (ERROR)- transactions_logger- [<function lineno at 0x000002F82A303920>]FAILED Transaction — Reciver is not a valid merchant.
+[147] 2025-12-13 05:06:02,027 -- (ERROR)- transactions_logger- [<function lineno at 0x000002F82A303920>]FAILED Transaction — Insufficient Balance
+[218] 2025-12-13 05:09:59,783 -- (ERROR)- transactions_logger- [<function lineno at 0x000002F82A303920>]FAILED Transaction — Insufficient Balance
+[147] 2025-12-13 05:11:43,178 -- (ERROR)- transactions_logger- [<function lineno at 0x000002F82A303920>]FAILED Transaction — Insufficient Balance
+[147] 2025-12-13 05:12:19,917 -- (ERROR)- transactions_logger- [<function lineno at 0x000002F82A303920>]FAILED Transaction — Insufficient Balance
+[147] 2025-12-13 05:15:27,097 -- (ERROR)- transactions_logger- [<function lineno at 0x0000014283963920>]FAILED Transaction — Insufficient Balance
+[147] 2025-12-13 05:16:20,882 -- (ERROR)- transactions_logger- [<function lineno at 0x00000190CF7E3920>]FAILED Transaction — Insufficient Balance
+[147] 2025-12-13 05:17:30,350 -- (ERROR)- transactions_logger- [<function lineno at 0x00000207C12C3920>]FAILED Transaction — Insufficient Balance
+[253] 2025-12-13 05:17:30,817 -- (ERROR)- django.request- Internal Server Error: /api/customers/cash-out/
+Traceback (most recent call last):
+  File "G:\E_Transaction\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "G:\E_Transaction\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\E_Transaction\env\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\E_Transaction\env\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\E_Transaction\env\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\E_Transaction\env\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "G:\E_Transaction\env\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "G:\E_Transaction\env\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\E_Transaction\env\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "G:\E_Transaction\diuwallet\customer\views.py", line 46, in cash_out_view
+    service_response = cash_out_service(sender_ac_no, reciver_ac_no, amount, password)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\E_Transaction\diuwallet\transactions\services.py", line 182, in cash_out_service
+    print(sender.wallet.balance)
+          ^^^^
+NameError: name 'send' is not defined
+[213] 2025-12-13 05:17:30,823 -- (ERROR)- django.server- "POST /api/customers/cash-out/ HTTP/1.1" 500 117720
+[147] 2025-12-13 05:17:40,509 -- (ERROR)- transactions_logger- [<function lineno at 0x00000207C12C3920>]FAILED Transaction — Insufficient Balance
+[253] 2025-12-13 05:17:40,553 -- (ERROR)- django.request- Internal Server Error: /api/customers/cash-out/
+Traceback (most recent call last):
+  File "G:\E_Transaction\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "G:\E_Transaction\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\E_Transaction\env\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\E_Transaction\env\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\E_Transaction\env\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\E_Transaction\env\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "G:\E_Transaction\env\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "G:\E_Transaction\env\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\E_Transaction\env\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "G:\E_Transaction\diuwallet\customer\views.py", line 46, in cash_out_view
+    service_response = cash_out_service(sender_ac_no, reciver_ac_no, amount, password)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\E_Transaction\diuwallet\transactions\services.py", line 182, in cash_out_service
+    print(sender.wallet.balance)
+          ^^^^
+NameError: name 'send' is not defined
+[213] 2025-12-13 05:17:40,557 -- (ERROR)- django.server- "POST /api/customers/cash-out/ HTTP/1.1" 500 117720
+[147] 2025-12-13 05:18:16,182 -- (ERROR)- transactions_logger- [<function lineno at 0x0000022D1D433920>]FAILED Transaction — Insufficient Balance
+[147] 2025-12-13 05:18:49,906 -- (ERROR)- transactions_logger- [<function lineno at 0x00000224F6913920>]FAILED Transaction — Insufficient Balance
+[147] 2025-12-13 05:20:35,888 -- (ERROR)- transactions_logger- [<function lineno at 0x00000224F6913920>]FAILED Transaction — Insufficient Balance
+[147] 2025-12-13 05:23:17,538 -- (ERROR)- transactions_logger- [<function lineno at 0x0000019A45433920>]FAILED Transaction — Insufficient Balance
+[147] 2025-12-13 05:48:18,427 -- (ERROR)- transactions_logger- [<function lineno at 0x0000019A45433920>]FAILED Transaction — Insufficient Balance
+[85] 2025-12-13 06:38:31,995 -- (ERROR)- transactions_logger- [<function lineno at 0x0000019A45433920>]FAILED Transaction — User Does Not Exist
+[85] 2025-12-13 06:39:02,987 -- (ERROR)- transactions_logger- [<function lineno at 0x0000019A45433920>]FAILED Transaction — User Does Not Exist
+[88] 2025-12-13 06:40:40,601 -- (ERROR)- transactions_logger- [<function lineno at 0x0000019A45433920>]FAILED Transaction — Insufficient Balance
+[253] 2025-12-14 18:47:20,928 -- (ERROR)- django.request- Internal Server Error: /admin
+Traceback (most recent call last):
+  File "G:\E_Transaction\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "G:\E_Transaction\env\Lib\site-packages\django\utils\deprecation.py", line 122, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\E_Transaction\env\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\E_Transaction\env\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[213] 2025-12-14 18:47:20,981 -- (ERROR)- django.server- "POST /admin HTTP/1.1" 500 80161
+[85] 2025-12-19 00:34:42,454 -- (ERROR)- transactions_logger- [<function lineno at 0x000001B9A5CF3BA0>]FAILED Transaction — User Does Not Exist
+[85] 2025-12-19 00:34:52,062 -- (ERROR)- transactions_logger- [<function lineno at 0x000001B9A5CF3BA0>]FAILED Transaction — User Does Not Exist
+[88] 2025-12-19 00:35:26,936 -- (ERROR)- transactions_logger- [<function lineno at 0x000001B9A5CF3BA0>]FAILED Transaction — Insufficient Balance
+[221] 2025-12-19 00:38:02,003 -- (ERROR)- transactions_logger- [<function lineno at 0x000001B9A5CF3BA0>]FAILED Transaction — User Does Not Exist
+[221] 2025-12-19 00:39:06,203 -- (ERROR)- transactions_logger- [<function lineno at 0x000001B9A5CF3BA0>]FAILED Transaction — User Does Not Exist
+[221] 2025-12-19 00:39:28,853 -- (ERROR)- transactions_logger- [<function lineno at 0x000001B9A5CF3BA0>]FAILED Transaction — User Does Not Exist

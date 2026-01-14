@@ -59,6 +59,23 @@ def  user_registration_view(request):
                         status=status.HTTP_201_CREATED)
         security_logger.info(f"Account creation failed with errors: {serializer.errors}")
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+# @api_view(['POST'])    
+# def user_login_view(request):
+#     if request.method == 'POST':
+#         account_number = request.data.get('account_number') 
+#         password = request.data.get('password')
+#         try:
+#             user = models.User.objects.get(account_number=account_number)
+#             if user.check_password(password):
+#                 serializer = serializers.UserSerializer(user)
+#                 security_logger.info(f"Login successful for account number: {account_number}")
+#                 return Response({"message": "Login successful"}, status=status.HTTP_200_OK)
+#             else:
+#                 security_logger.info(f"Login failed for account number: {account_number} - Invalid credentials")
+#                 return Response({'error': 'Invalid credentials'}, status=status.HTTP_400_BAD_REQUEST)
+#         except models.User.DoesNotExist:
+#             security_logger.info(f"Login failed - User with account number: {account_number} does not exist")
+#             return Response({'error': 'User does not exist'}, status=status.HTTP_404_NOT_FOUND)
 @api_view(['POST'])    
 def user_login_view(request):
     if request.method == 'POST':
@@ -69,7 +86,10 @@ def user_login_view(request):
             if user.check_password(password):
                 serializer = serializers.UserSerializer(user)
                 security_logger.info(f"Login successful for account number: {account_number}")
-                return Response({"message": "Login successful"}, status=status.HTTP_200_OK)
+                return Response({
+                    "message": "Login successful",
+                    "account_number": user.account_number  # Include account_number in the response
+                }, status=status.HTTP_200_OK)
             else:
                 security_logger.info(f"Login failed for account number: {account_number} - Invalid credentials")
                 return Response({'error': 'Invalid credentials'}, status=status.HTTP_400_BAD_REQUEST)
@@ -80,13 +100,15 @@ def user_login_view(request):
 
 @api_view(['GET'])
 @permission_classes([IsAuthenticated])
+@authentication_classes([JWTAuthentication])
 def user_profile_view(request):
-        serializer = serializers.UserSerializer(request.user)
-        return Response(serializer.data, status=status.HTTP_200_OK)
+    serializer = serializers.UserSerializer(request.user)
+    return Response(serializer.data, status=status.HTTP_200_OK)
             
         
 @api_view(['GET', 'PUT', 'PATCH', 'DELETE'])
 @permission_classes([IsAuthenticated])
+@authentication_classes([JWTAuthentication])
 def user_detail_view(request):
     if request.method == 'GET':
         serializer = serializers.UserSerializer(request.user)
@@ -108,6 +130,7 @@ def RefreshToken(refresh_token):
 
 @api_view(['PUT','PATCH'])
 @permission_classes([IsAuthenticated])
+@authentication_classes([JWTAuthentication])
 def change_password_view(request):
     
     user = request.user #retunrs a single user object #filter returns multiple objects 

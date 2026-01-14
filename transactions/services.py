@@ -155,7 +155,8 @@ def cash_out_service(sender_ac_no,agent_ac_no,amount,password):
     amount = Decimal(amount)
     
     fee_amount = amount * Decimal('0.01')  # 5% fee amount
-    amount = amount + fee_amount
+    amount  += fee_amount
+    print(amount)
     agent_revenue = fee_amount * Decimal('0.60')  # 60% of fee to agent
     platform_fee = fee_amount * Decimal('0.40')  # 40%
     
@@ -178,15 +179,19 @@ def cash_out_service(sender_ac_no,agent_ac_no,amount,password):
             return {"success": False, "message": "Insufficient balance."}
         else:
             sender.wallet.balance -= amount
+            sender.wallet.save()
+            x = sender.wallet.balance
+            print(x)
             reciver.wallet.balance += amount-fee_amount
+            reciver.wallet.save()
+            
             reciver_revenue.revenue += agent_revenue
+            reciver_revenue.save()
             platform_revenue.revenue += platform_fee
             platform_revenue.save()
-           # assuming platform user has this account number
             
-            reciver_revenue.save()
-            sender.wallet.save()
-            reciver.wallet.save()
+            
+            
             transaction = Transaction.objects.create(
                 sender=sender,
                 receiver=reciver,
